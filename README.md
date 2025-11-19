@@ -2,4 +2,4 @@
 
 In this Repository all the practice questions are included for every Day works 
 
-day-1 : 
+day-1 : Climbing Stairs 
