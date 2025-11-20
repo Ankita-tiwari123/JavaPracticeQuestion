@@ -1,0 +1,21 @@
+// Average of Array elements in java
+
+
+public class AverageOfArrayElements {
+    public static double Average(int arr[]){
+        int n = arr.length;
+        int sum = 0;
+        double average = 0;
+        for(int i =0; i<n;i++){
+            sum =sum+ arr[i];
+            average = sum/n;
+        }
+        return average;
+    }
+    public static void main(String[] args) {
+        int[] elements ={45,55,66,22,33};
+        double average = Average(elements);
+        System.out.println("Average Of Array Element Will be : " + average);
+    }
+    
+}
